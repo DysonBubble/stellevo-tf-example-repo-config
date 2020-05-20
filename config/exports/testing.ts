@@ -1,6 +1,6 @@
-// import * as api from "../api/configuration";
-import * as passwords from "../../platforms/test-platform/dummy";
+// import * as api from "../../api/configuration";
+import * as dummy from "../../platforms/test-platform/dummy";
 
 export const Configuration = [
-  passwords.DummyApp()
+  dummy.DummyApp()
 ] as const;
