@@ -4,9 +4,11 @@ import * as api from "../../../api/configuration";
 export const Configuration: api.InfraConfigurationExport = [
   {
     configuration: {
-      azuread_application: {
-        "another": {
-          name: "new-app"
+      resources: {
+        azuread_application: {
+          "another": {
+            name: "new-app"
+          }
         }
       }
     }
