@@ -2,5 +2,8 @@
 import * as dummy from "../../platforms/test-platform/dummy";
 
 export const Configuration = [
-  dummy.DummyApp()
+  {
+    configuration: dummy.DummyApp(),
+    prefix: "my-prefix-"
+  }
 ] as const;
