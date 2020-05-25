@@ -1,1 +1,13 @@
-platforms/**/*.ts
+# Ignore everything in src except src/config/(exports|lib)
+/src/*
+!/src/config/
+/src/config/*
+!/src/config/exports/
+!/src/config/lib/
+
+# Ignore various files created by setting up dev environment
+/node_modules
+/package*.json
+/tsconfig*.json
+/ts_out
+/tf_out
