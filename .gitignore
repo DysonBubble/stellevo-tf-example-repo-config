@@ -4,6 +4,8 @@
 /src/config/*
 !/src/config/exports/
 !/src/config/lib/
+/src/config/exports/**/tsconfig.json
+/src/config/lib/**/tsconfig.json
 
 # Ignore various files created by setting up dev environment
 /node_modules
