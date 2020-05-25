@@ -1,1 +1,1 @@
-/c/Work/OSS/DysonBubble/stellevo-tf-example-repo-platform
+https://github.com/DysonBubble/stellevo-tf-example-repo-platform
