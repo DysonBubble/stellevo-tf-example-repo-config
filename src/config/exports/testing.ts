@@ -1,5 +1,5 @@
 // import * as api from "../../api/configuration";
-import * as dummy from "../../platforms/test-platform/dummy";
+import * as dummy from "../../platforms/test-platform";
 
 export const Configuration = [
   {
